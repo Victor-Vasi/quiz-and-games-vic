@@ -1,4 +1,4 @@
-Go to https://admirable-pudding-4d017e.netlify.app/
+Go to https://triviaquizz-tenziegame.netlify.app/
 
 
 # Getting Started with Create React App
