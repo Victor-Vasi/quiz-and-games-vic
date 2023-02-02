@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quiz-and-games-vic.github.io/static/css/main.656b3859.css",
+    "main.js": "/quiz-and-games-vic.github.io/static/js/main.dde34c29.js",
+    "static/js/787.6a3451bc.chunk.js": "/quiz-and-games-vic.github.io/static/js/787.6a3451bc.chunk.js",
+    "index.html": "/quiz-and-games-vic.github.io/index.html",
+    "main.656b3859.css.map": "/quiz-and-games-vic.github.io/static/css/main.656b3859.css.map",
+    "main.dde34c29.js.map": "/quiz-and-games-vic.github.io/static/js/main.dde34c29.js.map",
+    "787.6a3451bc.chunk.js.map": "/quiz-and-games-vic.github.io/static/js/787.6a3451bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.656b3859.css",
+    "static/js/main.dde34c29.js"
+  ]
+}
