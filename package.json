@@ -2,7 +2,6 @@
   "name": "quiz-and-games-vic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Victor-Vasi.github.io/quiz-and-games-vic.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
