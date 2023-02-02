@@ -1,0 +1,87 @@
+.tenzies-container {
+    color: var(--text-one);
+    display: flex;
+    background-color: #567189;
+    height: 100vh;
+    width: 100%;
+}
+
+.tenzies-container .tenzie {
+    margin: auto;
+    background-color: #579BB1;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 300px;
+}
+
+.tenzies-container .tenzie .game-name {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+
+.tenzies-container .tenzie .game-rulles {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 35px;
+    width: 290px;
+}
+
+.tenzies-container .tenzie .dice {
+    display: grid;
+    margin: 10px 0 60px;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+.tenzies-container .tenzie .dice .dice-container {
+    cursor: pointer;
+    color: rgb(90, 90, 90);
+    background-color: #ECE8DD;
+    border-radius: 5px;
+    box-shadow: -1px 1px 10px -1px #ECE8DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+
+.tenzies-container .tenzie .dice .dice-container span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.tenzies-container .tenzie .btn {
+    color: #f6efde;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid #E1D7C6;
+    box-shadow: -1px 1px 4px -1px #ECE8DD;
+    background-color: transparent;
+    padding: 5px;
+    width: 180px;
+}
+
+.tenzies-container .tenzie .btn:hover {
+    background-color: #f6efde;
+    color: rgb(90, 90, 90);
+}
+
+@media (max-width: 750px) {
+
+    .tenzies-container .tenzie {
+        padding: 15px;
+        border-radius: 10px;
+        width: 280px;
+    }
+    
+}

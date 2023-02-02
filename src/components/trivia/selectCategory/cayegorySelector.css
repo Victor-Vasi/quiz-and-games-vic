@@ -1,0 +1,63 @@
+.triv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #698269;
+    height: 100vh;
+    width: 100%;
+}
+
+.triv-container .trivia-section {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #AA5656;
+    border-radius: 7px;
+    height: 450px;
+    width: 300px;
+}
+
+.triv-container .trivia-section img {
+    border-radius: 7px;
+    margin: 10px 0 30px;
+    width: 240px;
+}
+
+.triv-container .trivia-section .section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 25px 0 10px;
+}
+
+.triv-container  .trivia-section .form-control {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #B99B6B;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 3px 10px;
+    margin: 5px 0;
+    width: 240px;
+}
+
+.triv-container .trivia-section .trivia-btn {
+    cursor: pointer;
+    color: white;
+    background-color: #B99B6B;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 30px 0 15px;
+    padding: 5px;
+    width: 180px;
+}
+
+.triv-container .trivia-section .trivia-btn:hover {
+    background-color: white;
+    color: #B99B6B;
+}
