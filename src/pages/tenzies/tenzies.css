@@ -83,5 +83,10 @@
         border-radius: 10px;
         width: 280px;
     }
+
+    .tenzies-container .tenzie .btn:hover {
+        background-color: transparent;;
+        color: #f6efde;
+    }
     
 }
