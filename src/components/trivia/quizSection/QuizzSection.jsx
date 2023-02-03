@@ -88,7 +88,7 @@ const QuizzSection = (props) => {
         const selectedAnswers = element.answers.filter(answer => answer.isSelected === true).map(answer => answer.answer)
         return selectedAnswers
     }).flat()
-    console.log(correctAnswers);
+    // console.log(correctAnswers);
     // console.log(userAnswers);
 
     // -------------------- Check game -----------------------
