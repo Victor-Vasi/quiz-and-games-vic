@@ -34,13 +34,29 @@ const Tenzies = () => {
         return newDice
     }
 
+    const clickSoundEffect = new Audio(process.env.PUBLIC_URL + "/sounds/classic-click.wav");
+    const clickedButtonEffect = new Audio(process.env.PUBLIC_URL + "/sounds/button-click.wav");
+    const applauseSound = new Audio(process.env.PUBLIC_URL + "/sounds/applause-500.wav");
+
+    function playDiceSound() {
+        clickSoundEffect.play()
+    }
+    function playButtonSound() {
+        clickedButtonEffect.play()
+    }
+    function winSound() {
+        applauseSound.play()
+    }
+
     function holdDice(id) {
+        playDiceSound()
         setDice(prevDices => prevDices.map(dice => {
             return dice.id === id ? { ...dice, isHeld: !dice.isHeld } : dice
         }))
     }
 
     function rollDices() {
+        playButtonSound()
         if (!tenzies) {
             setDice(oldDice => oldDice.map(die => {
                 return die.isHeld ?
@@ -67,8 +83,9 @@ const Tenzies = () => {
     return (
         <div className='tenzies-container'>
             {tenzies && <Confetti />}
+            {tenzies && winSound()}
             <div className='tenzie'>
-                <h2 className='game-name'>{tenzies ? "Congratulation, You won!" : "Tenzie"}</h2>
+                <h2 className='game-name'>{tenzies ? "Nice job!👌😉" : "Tenzie"}</h2>
                 <p className='game-rulles'>Roll until all dice have the same value.
                     Click each die to freeze it at its current value between rolls.</p>
                 <div className='dice'>
