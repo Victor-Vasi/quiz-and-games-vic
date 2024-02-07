@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .quizz-container .quizz-section {
     padding: 0 10px;
     color: white;
-    min-height: 100vh;
     width: 90%;
 }
 
