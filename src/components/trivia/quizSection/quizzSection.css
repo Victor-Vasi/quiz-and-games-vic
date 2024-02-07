@@ -8,7 +8,7 @@
 .quizz-container .quizz-section {
     padding: 0 10px;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     width: 90%;
 }
 
