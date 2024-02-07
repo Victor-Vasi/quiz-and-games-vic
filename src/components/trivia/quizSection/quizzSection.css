@@ -1,5 +1,4 @@
 .quizz-container {
-    background-color: #698269;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +6,7 @@
 
 .quizz-container .quizz-section {
     padding: 0 10px;
-    color: white;
+    color: #698269;
     width: 90%;
 }
 
